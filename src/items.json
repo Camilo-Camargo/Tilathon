@@ -1,0 +1,21 @@
+{
+   "Jumbo": {
+      "url": "https://www.tiendasjumbo.co/tilapia?_q=tilapia&map=ft",
+      "tags": [
+         [ "titles", "span", "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body"],
+         [ "prices", "div", "tiendasjumboqaio-jumbo-minicart-2-x-price" ],
+         [ "brand", "span", "vtex-product-summary-2-x-productBrandName" ]
+      ],
+      "driver": true
+   }, 
+
+   "Exito": {
+      "url": "https://www.exito.com/tilapia?_q=tilapia&map=ft'",
+      "tags": [
+         ["titles", "span", "vtex-store-components-3-x-productBrand"],
+         ["prices", "span", "exito-vtex-components-4-x-currencyContainer"],
+         ["brand", "span", "vtex-product-summary-2-x-productBrandName"]
+      ],
+      "driver": true
+   }
+}

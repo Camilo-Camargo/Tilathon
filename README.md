@@ -1,2 +1,1 @@
-# tilathon
-Tilapia forecasting research project in Python with MLOPS.
+# Tilapia research about price scraping
