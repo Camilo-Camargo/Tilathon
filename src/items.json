@@ -1,21 +1,177 @@
-{
-   "Jumbo": {
-      "url": "https://www.tiendasjumbo.co/tilapia?_q=tilapia&map=ft",
-      "tags": [
-         [ "titles", "span", "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body"],
-         [ "prices", "div", "tiendasjumboqaio-jumbo-minicart-2-x-price" ],
-         [ "brand", "span", "vtex-product-summary-2-x-productBrandName" ]
-      ],
-      "driver": true
-   }, 
+{ 
+	"stores": [{
 
-   "Exito": {
-      "url": "https://www.exito.com/tilapia?_q=tilapia&map=ft'",
-      "tags": [
-         ["titles", "span", "vtex-store-components-3-x-productBrand"],
-         ["prices", "span", "exito-vtex-components-4-x-currencyContainer"],
-         ["brand", "span", "vtex-product-summary-2-x-productBrandName"]
-      ],
-      "driver": true
-   }
+		"name": "Exito",
+		"page": {
+			"url": "https://www.exito.com",
+			"dynamic": "True"
+		},
+		"product": {
+			"name": "Tilapia",
+			"page": {
+				"url": "https://www.exito.com/pescados-y-mariscos/tilapia?_q=tilapia&fuzzy=0&initialMap=ft&initialQuery=tilapia&map=category-3,ft&operator=and",
+				"dynamic": "True"
+			},
+            "tag": {
+                "name": "__parent",
+                "tag": "div",
+                "class": "vtex-search-result-3-x-galleryItem vtex-search-result-3-x-galleryItem--normal vtex-search-result-3-x-galleryItem--default pa4"
+            },
+			"tags": [{
+					"name": "Title",
+					"tag": "span",
+					"class": "vtex-store-components-3-x-productBrand"
+				},
+				{
+					"name": "Price",
+					"tag": "span",
+					"class": "exito-vtex-components-4-x-currencyContainer"
+				},
+				{
+					"name": "Brand",
+					"tag": "span",
+					"class": "vtex-product-summary-2-x-productBrandName"
+				}
+			],
+            "config": [
+                {
+                    "name": "__count",
+                    "tag": "div",
+                    "class": "vtex-search-result-3-x-totalProducts--layout pv5 ph9 bn-ns bt-s b--muted-5 tc-s tl t-action--small",
+                    "children": "True"
+                }
+            ]
+		}
+
+	},
+	{
+		"name": "Carulla",
+		"page": {
+			"url": "https://www.carulla.com",
+			"dynamic": "True"
+		},
+		"product": {
+			"name": "Tilapia",
+			"page": {
+				"url": "https://www.carulla.com/pollo-carnes-y-pescado/tilapia?_q=tilapia&fuzzy=0&initialMap=ft&initialQuery=tilapia&map=category-1,ft&operator=and",
+				"dynamic": "True"
+			},
+            "tag": {
+                "name": "__parent",
+                "tag": "div",
+                "class": "vtex-search-result-3-x-galleryItem vtex-search-result-3-x-galleryItem--normal vtex-search-result-3-x-galleryItem--default pa4"
+            },
+			"tags": [{
+					"name": "Title",
+					"tag": "span",
+					"class": "vtex-store-components-3-x-productBrand"
+				},
+				{
+					"name": "Price",
+					"tag": "span",
+					"class": "exito-vtex-components-4-x-currencyContainer"
+				},
+				{
+					"name": "Brand",
+					"tag": "span",
+					"class": "vtex-product-summary-2-x-productBrandName"
+				}
+			],
+            "config": [
+                {
+                    "name": "__count",
+                    "tag": "div",
+                    "class": "vtex-search-result-3-x-totalProducts--layout pv5 ph9 bn-ns bt-s b--muted-5 tc-s tl t-action--small",
+                    "children": "True"
+                }
+            ]
+		}
+
+	},
+
+
+	{
+		"name": "Olimpica",
+		"page": {
+			"url": "https://www.olimpica.com",
+			"dynamic": "True"
+		},
+		"product": {
+			"name": "Tilapia",
+			"page": {
+				"url": "https://www.olimpica.com/pollo-carne-y-pescado/tilapia?_q=tilapia&fuzzy=0&initialMap=ft&initialQuery=tilapia&map=category-2,ft&operator=and",
+				"dynamic": "True"
+			},
+            "tag": {
+                "name": "__parent",
+                "tag": "div",
+                "class": "vtex-search-result-3-x-galleryItem vtex-search-result-3-x-galleryItem--normal vtex-search-result-3-x-galleryItem--grid-3 pa4"
+            },
+			"tags": [{
+					"name": "Title",
+					"tag": "span",
+					"class": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body"
+				},
+				{
+					"name": "Price",
+					"tag": "span",
+					"class": "olimpica-dinamic-flags-0-x-currencyContainer"
+				}
+			],
+            "config": [
+                {
+                    "name": "__count",
+                    "tag": "div",
+                    "class": "vtex-search-result-3-x-totalProducts--layout pv5 ph9 bn-ns bt-s b--muted-5 tc-s tl t-action--small",
+                    "children": "True"
+                }
+            ]
+		}
+
+	},
+
+	{
+		"name": "Jumbo",
+		"page": {
+			"url": "https://www.tiendasjumbo.co", 
+			"dynamic": "True"
+		},
+		"product":{
+			"name": "Tilapia",
+			"page": {
+				"url": "https://www.tiendasjumbo.co/pescados-y-mariscos/tilapia?_q=tilapia&fuzzy=0&initialMap=ft&initialQuery=tilapia&map=category-2,ft&operator=and",
+				"dynamic": "True"
+			},
+			"tag": {
+				"name": "__parent",
+				"tag": "div",
+				"class": "vtex-search-result-3-x-galleryItem vtex-search-result-3-x-galleryItem--gallery-css vtex-search-result-3-x-galleryItem--normal vtex-search-result-3-x-galleryItem--gallery-css--normal vtex-search-result-3-x-galleryItem--grid vtex-search-result-3-x-galleryItem--gallery-css--grid pa4"
+			}, 
+
+			"tags": [
+				{
+					"name": "Title",
+					"tag": "span",
+					"class": "vtex-product-summary-2-x-productBrand vtex-product-summary-2-x-brandName t-body"
+				},
+				{
+					"name": "Price",
+					"tag": "div",
+					"class": "tiendasjumboqaio-jumbo-minicart-2-x-price"
+				},
+				{
+					"name": "Brand",
+					"tag": "span",
+					"class": "vtex-product-summary-2-x-productBrandName"
+				}
+			], 
+
+			"config": [{
+				"name": "__count",
+				"tag": "span",
+				"class": "vtex-search-result-3-x-totalProducts--layout pv5 ph9 bn-ns bt-s b--muted-5 tc-s tl t-action--small",
+				"children": "True"
+			}]
+		}
+	}]
 }
